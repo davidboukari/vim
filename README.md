@@ -11,3 +11,7 @@ vim -r .file.swp
 
 * press ?<searchpattern> n to search forward 
 * press ?<searchpattern> N to search backward 
+
+## Go to line,column
+
+:call cursor(15,25)
