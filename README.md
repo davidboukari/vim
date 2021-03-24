@@ -8,9 +8,10 @@ vim -r .file.swp
 ```
 
 ## Search in Forward/Backward
-
-* press ?<searchpattern> n to search forward 
-* press ?<searchpattern> N to search backward 
+```
+* press ?<searchpattern>             
+=> n to search backward or N to search forward 
+```
 
 ## Go to line,column
 
