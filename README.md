@@ -16,3 +16,11 @@ vim -r .file.swp
 ## Go to line,column
 
 :call cursor(15,25)
+
+## to lowercase to uppercase
+* https://vim.fandom.com/wiki/Switching_case_of_characters
+```
+Toggle case "HellO" to "hELLo" with g~ then a movement.
+Uppercase "HellO" to "HELLO" with gU then a movement.
+Lowercase "HellO" to "hello" with gu then a movement.
+```
