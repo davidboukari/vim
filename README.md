@@ -17,6 +17,16 @@ vim -r .file.swp
 
 :call cursor(15,25)
 
+## To display the byte position you can use the following command
+```
+:echo line2byte(line("."))+col(".")-1
+```
+
+## go to offset
+```
+:goto 2356
+```
+
 ## to lowercase to uppercase
 * https://vim.fandom.com/wiki/Switching_case_of_characters
 ```
