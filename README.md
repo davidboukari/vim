@@ -1,5 +1,9 @@
 # vim
 
+## Replacce \n => \r
+```
+: 1,$ s/}/}\r/g
+```
 
 ## Create file from .swp
 
